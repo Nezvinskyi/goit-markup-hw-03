@@ -23,6 +23,7 @@ ul {
 
 p,
 ul,
+h2,
 h3 {
   margin: 0;
   padding: 0;
@@ -36,8 +37,8 @@ address {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 
 .container {
