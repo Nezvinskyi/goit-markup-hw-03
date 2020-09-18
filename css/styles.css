@@ -19,6 +19,8 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -66,6 +68,10 @@ address {
 /* =======END HEADER========= */
 
 /* =======HERO========== */
+.hero {
+  text-align: center;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -74,6 +80,8 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
