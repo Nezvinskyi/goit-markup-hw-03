@@ -76,12 +76,13 @@ address {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 0px;
   margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 .hero-btn {
