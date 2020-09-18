@@ -19,14 +19,25 @@ body {
 
 ul {
   list-style: none;
+}
+
+p,
+ul,
+h3 {
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
 address {
   font-style: normal;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
