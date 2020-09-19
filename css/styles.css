@@ -51,13 +51,17 @@ img {
   padding-right: 15px;
 }
 /* =======HEADER========= */
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 header .container {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: #ffffff;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
 }
 
 .navigation {
@@ -204,7 +208,7 @@ header address li:not(:last-child) {
   padding-bottom: 94px;
 }
 
-.container.team {
+.section.team {
   background-color: #f5f4fa;
 }
 
