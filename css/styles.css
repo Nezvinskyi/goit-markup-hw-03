@@ -282,6 +282,7 @@ footer address {
   margin-left: 8px;
 }
 .projects-button {
+  padding: 6px 22px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
