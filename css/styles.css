@@ -23,6 +23,7 @@ ul {
 
 p,
 ul,
+h1,
 h2,
 h3 {
   margin: 0;
@@ -40,8 +41,7 @@ img {
 }
 
 .section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
 }
 
 .container {
@@ -50,6 +50,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px dotted #2f303a;
 }
 /* =======HEADER========= */
 header .container {
@@ -120,15 +121,16 @@ header address li:not(:last-child) {
 
 /* =======HERO========== */
 
-.hero {
+.hero-items {
   display: flex;
+  height: 600px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .hero-title {
   max-width: 700px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -136,8 +138,6 @@ header address li:not(:last-child) {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 200px;
-  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -145,7 +145,6 @@ header address li:not(:last-child) {
   font-size: 16px;
   line-height: 1.875;
   display: inline-block;
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -156,7 +155,7 @@ header address li:not(:last-child) {
   min-width: 200px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: transparent;
-  margin-bottom: 200px;
+  margin-top: 30px;
 }
 /* =======END HERO========== */
 
@@ -196,6 +195,12 @@ header address li:not(:last-child) {
 /* ========END WHAT WE DO========== */
 
 /* ========== TEAM ========== */
+
+.team {
+  padding-top: 188px;
+  padding-bottom: 94px;
+}
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -232,16 +237,9 @@ header address li:not(:last-child) {
 /* ========== FOOTER ============ */
 footer {
   background-color: #2f303a;
-}
-
-footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/* footer .logo {
-  margin-bottom: 20px;
-} */
 
 footer address {
   margin-top: 20px;
