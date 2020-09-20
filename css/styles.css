@@ -41,6 +41,7 @@ img {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -61,7 +62,6 @@ header .container {
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: #ffffff;
-  /* border-bottom: 1px solid #ececec; */
 }
 
 .navigation {
@@ -127,6 +127,8 @@ header address li:not(:last-child) {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .hero-items {
   display: flex;
@@ -167,6 +169,11 @@ header address li:not(:last-child) {
 /* =======END HERO========== */
 
 /* ========FEATURES========= */
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
 .features-list {
   display: flex;
   justify-content: space-between;
@@ -202,11 +209,6 @@ header address li:not(:last-child) {
 /* ========END WHAT WE DO========== */
 
 /* ========== TEAM ========== */
-
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .section.team {
   background-color: #f5f4fa;
